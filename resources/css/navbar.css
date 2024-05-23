@@ -1,0 +1,137 @@
+nav{
+  min-height: 94px;
+}
+
+.limewaveTitle:hover{
+  color: var(--color-a);
+  /* margin-bottom: 10px; */
+}
+
+/* LINK CUSTOM */
+.link-custom{
+    position: relative;
+}
+
+.nav-link, .nav-link.show{
+  color: var(--color-p) !important;
+  /* i navlink non diventano piu neri una volta cliccati */
+}
+
+.link-custom::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-a);
+    transition: .5s;
+}
+
+.link-custom:hover:before{
+    width: 100%;
+}
+
+.link-custom:hover{
+    color: var(--color-p);
+    background-color: var(--color-s);
+  }
+
+.dropdown:hover{
+    background-color: var(--color-s);
+    color: var(--color-a);
+  }
+
+  /* LINK CUSTOM 2 */
+  .link-custom-2{
+    position: relative;
+}
+
+.link-custom-2::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-a);
+    transition: .5s;
+}
+
+.link-custom-2:hover:before{
+    width: 100%;
+}
+
+.link-custom-2:hover{
+    color: var(--color-p);
+    background-color: var(--color-s);
+  }
+
+.dropdown-2:hover{
+    background-color: var(--color-s);
+    color: var(--color-a);
+  }
+
+  #navbarSearchbar:focus{
+    box-shadow: 0 0 0 0rem !important;   
+    outline: 2px solid var(--color-a);
+  }
+
+  /* NAVBAR OFFCANVAS PER MOBILE  */
+
+  .accordion-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none !important;
+    border: var(--color-s);
+    background-color: var(--color-s);
+    color: var(--color-p);
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e0ff00'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+
+    /* In the SVG code, the %23 translates to a # character, and the ff0000 is simply a CSS hexadecimal color. You can make the arrow any color you want by changing the six digit hex code. For example, 0000ff would create a blue arrow. */
+ }
+
+ .accordion-button:not(.collapsed){
+    color: var(--color-p);
+ }
+
+ .accordion {
+    --bs-accordion-active-bg:var(--color-s);
+     /* Sets the background color. */
+    --bs-accordion-border-color: var(--color-s);
+    --bs-accordion-bg: var(--color-s);
+
+    /* toglie bordino dall'accordion aperto */
+}
+
+
+.accordionLoginRegister-button::after{
+
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e0ff00'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+
+  /* In the SVG code, the %23 translates to a # character, and the ff0000 is simply a CSS hexadecimal color. You can make the arrow any color you want by changing the six digit hex code. For example, 0000ff would create a blue arrow. */
+}
+
+
+/* .accordionLogoutBtn{
+  transition: 1s probabilmente inutile ; 
+} */
+
+.accordionLogoutBtn:focus{
+  border: none !important;
+  outline: none !important;
+  /* transform: scale(1.0) !important; probabilmente inutile */
+}
+
+.accordionLanguages-button::after{
+
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23e0ff00'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+
+  /* In the SVG code, the %23 translates to a # character, and the ff0000 is simply a CSS hexadecimal color. You can make the arrow any color you want by changing the six digit hex code. For example, 0000ff would create a blue arrow. */
+}

@@ -1,0 +1,11 @@
+@import 'bootstrap';
+@import 'bootstrap-icons';
+@import "./masthead.css";
+@import "./navbar.css";
+@import "./detail.css";
+@import "./global.css";
+@import './root.css';
+@import "./fourMainCategories.css";
+@import "./footer.css";
+@import "./userprofile.css";
+@import "./card.css";

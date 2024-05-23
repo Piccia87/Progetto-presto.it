@@ -1,0 +1,47 @@
+.rowMainCategories {
+    position: relative;
+    overflow: hidden;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/public/media/categoryBandSuper.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: 1;
+}
+
+.rowMainCategories .row {
+    position: relative;
+    z-index: 2;
+}
+
+
+.category-card:hover {
+    background-color: var(--color-aLight);
+    transform: scale(110%);
+    transition: 1s;
+    box-shadow: 0px 10px 15px var(--color-s) !important;
+}
+
+.category-card:hover .category-text{
+    /* transform: scale(105%); */
+    translate: 0px -10px;
+    transition: 0.8s;
+   
+}
+
+.category-text {
+    transition: 0.5s;
+}
+
+.category-card {    
+    transition: 0.5s;    
+} 

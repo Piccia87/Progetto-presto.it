@@ -1,0 +1,30 @@
+.heart:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* .heart:hover{
+    cursor: pointer;
+    color: red;
+} */
+
+.divImg{
+  transition: 0.3s;
+}
+
+.card:hover > div > .divImg {
+  transform: scale(1.1) !important;
+}
+
+.cardName{
+  text-decoration: none;
+  color: var(--color-s);
+}
+
+.immagineCaroselloFeed{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,109 @@
+:root {
+    --color-s:#1e2029;
+    --color-sHover:#4e5468;
+    --color-p:#e3e3e3;
+    --color-a:#e0ff00;
+    --color-aHover:#cfeb00;
+    --color-aLight:#d0eb0081;
+}
+
+
+
+body{
+    background-color: var(--color-p);/*ADDED FOR TESTING */
+    
+    margin-top: 100px;
+    
+}
+
+main {
+    min-height: 100vh;
+}
+
+/* BACKGROUND STYLES */
+.bg-p{
+    background-color: var(--color-p); /*colore primary*/
+}
+
+.bg-s{
+    background-color: var(--color-s); /*colore secondary*/
+}
+
+.bg-a{
+    background-color: var(--color-a); /*colore accent*/
+}
+
+/* TEXT STYLES */
+.text-a{
+    color: var(--color-a); /*text accent*/
+}
+
+.text-p{
+    color: var(--color-p); /*text primary*/
+}
+
+.text-s{
+    color: var(--color-s); /*text secondary*/
+}
+
+/* BUTTON STYLES */
+.btn-accent{
+    background-color: var(--color-a);
+    color: var(--color-s);
+    transition: 0.3s;
+    border-radius: 0px;
+}
+
+.btn-s{
+    background-color: var(--color-s);
+    color: var(--color-p);
+    transition: 0.3s;
+}
+
+.btn-accent:hover{
+    background-color: var(--color-aHover);
+    color: var(--color-s);
+}
+
+.btn-s:hover{
+    background-color: var(--color-sHover);
+    color: var(--color-p);
+}
+
+/* BORDER STYLES */
+.border-p {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--color-p);    
+}
+
+.border-s {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--color-s);    
+}
+
+.border-a {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--color-a);    
+}
+
+/* BOTTONE MODIFICA DATI UTENTE */
+.bg-a-custom{
+    background-color: var(--color-a);
+}
+.bg-a-custom:hover{
+    background-color: var(--color-a);
+}
+.btn-user{
+    /* previous size */
+    /* width: 300px;
+    height: 65px; */
+    width: 15rem;
+    height: 40px;
+    border-radius: 0px;
+}
+
+
+

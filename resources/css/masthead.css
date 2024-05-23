@@ -1,0 +1,70 @@
+/* IMPORTED TEMPLATE STYLE
+DELETE IF DEPRECATED? */
+/* .masthead {
+    height: 35vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+
+  .hero {
+    margin-top: 50px;
+    padding: 0px;
+    min-height: 35vh;
+  }
+
+  /* WIP - first need to fix what is breaking layout in mobile */
+  .hero-mobile {
+    background-image: url(../../public/media/hero-image.png);
+    background-size: cover;
+    /* margin-top: 80px; */
+    width: 100vw;
+    height: 35vh;
+
+  }
+
+  .heroImg{
+    /* previous size */
+    /* height: 700px;
+    width: 400px; */
+    /* container relative size */
+    max-height: 100%;
+    /* height: auto; */
+    object-fit: contain;
+    /* vertical-align: bottom; */
+  }
+
+  .btn-hero{
+    /* previous size */
+    /* width: 300px;
+    height: 65px; */
+    width: 20rem;
+    height: 65px;
+    border-radius: 0px;
+}
+
+
+  .btn-hero-login{
+    /* previous size */
+    /* width: 300px;
+    height: 65px; */
+    width: 10rem;
+    height: 65px;
+    border-radius: 0px;
+}
+
+/* per animazione immagine hero  */
+#immagine{
+  /* height: 400px; */
+  position: absolute;
+  top: 0%;
+  /* left: 35%; */
+  transition: transform 1s ease-out;
+}
+
+.slideUp{
+  transform:  translateY(100%);
+}
+/* per animazione immagine hero  */
